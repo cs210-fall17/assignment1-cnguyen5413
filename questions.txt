@@ -1,10 +1,79 @@
-# csc210-a1-test
-Fill in the following information:
+Q: What is the difference between an option, an argument, and a command? 
+A:
 
-Netid: 
-Name:
-Date:
+Q: Whats the difference between I/O redirection and pipelining?
+A:
 
-Answer the following questions:
+Q: When I run the command 'wc', it hangs and does nothing. What is it actually doing?
+A:
 
-1. What is 2 + 2?
+Q: What happens when I run this command? 'java box < box.java > java box'
+A:
+
+Q: If we could not use pipes, how could we redirect the output from one command as input into another? 
+A:
+
+Q: Find a command we have not discussed in lecture and give a report on how to use it.
+A:
+
+Q: Using your text editor of choice found on lectura, give me a two - three paragraph introduction on how to use it. Include any special features you find interesting.  
+A:
+
+Use the following directory structure for the next three questions:
+
+└── root
+    ├── bin
+    │   ├── descend
+    │   ├── mygrep
+    │   ├── recent
+    │   ├── usercount
+    │   └── whendnesday
+    ├── docs
+    │   ├── images
+    │   │   ├── graph.jpg
+    │   │   └── logo.png
+    │   └── README.txt
+    └── src
+        └── passes
+            ├── countloads
+            │   └── countloads
+            │       ├── CMakeFiles
+            │       │   ├── CountLoadsPass.dir
+            │       │   │   └── link.txt
+            │       │   └── progress.marks
+            │       ├── CountLoads.cpp
+            │       ├── Makefile
+            │       ├── runtime_defs.cpp
+            ├── lulesh2.0.3
+            │   ├── Makefile
+            │   ├── runCountLoads.sh
+            ├── peephole
+            │   ├── build
+            │   │   ├── CMakeFiles
+            │   │   │   ├── 3.5.1
+            │   │   │   │   ├── CompilerIdC
+            │   │   │   │   │   └── a.out
+            │   │   │   │   └── CompilerIdCXX
+            │   │   │   │       └── a.out
+            │   │   │   ├── CMakeTmp
+            │   │   │   ├── Makefile2
+            │   │   │   ├── progress.marks
+            │   │   │   └── TargetDirectories.txt
+            ├── polly
+            │   ├── matmul.c
+            │   └── times.txt
+            ├── README.md
+            └── tests
+                ├── example2.cpp
+                ├── example.cpp
+                └── simple.cpp
+
+Q: Using an absolute path, get into the peephole directory.
+A:
+
+Q: Using a relative path and starting in the peephole directory, get into the images directory.
+A:
+
+Q: Using the shortest path possible and starting in the passes directory, move into the docs directory.
+A:
+
