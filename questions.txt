@@ -1,3 +1,8 @@
+Name:
+Section #:
+netid:
+github name:
+
 Given the following command lines, identify the command, options, and arguments within it
 
 Q: cat test.c -n
