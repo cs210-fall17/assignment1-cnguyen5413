@@ -1,32 +1,48 @@
-Name:
-Section #:
-netid:
-github name:
+Name: Christopher Nguyen
+Section #: 1A
+netid: 23352349
+github name: cnguyen5413
 
 Given the following command lines, identify the command, options, and arguments within it
 
 Q: cat test.c -n
-A:
+A: command = cat  ,  options = -n  ,  arguments = test.c
 
 Q: wc < a b > c -d
-A: 
+A: commands = wc and c , options = -d , arguments = a and b 
 
 Q: Write a command line that counts how many times the word 'for' appears in python files (files that end with .py) within your current directory. The resulting number should be placed in a file called 'result'.
+A: ls "for*.py | wc -l > "result"
 
 Q: When I run the command 'wc', it hangs and does nothing. What is it actually doing?
-A:
+A: It reads from stdin and writes to stdout. (It is awaiting user input)
 
 Q: What happens when I run this command? 'python3 box.py < box.py > python3 box.py'
-A:
+A: It takes in the output of box.py into another box.py into another one.
 
 Q: If we could not use pipes, how could we redirect the output from one command as input into another? 
-A:
+A: Use a series of "<" or ">" to read and write from stdin and stdout.
 
 Q: Find a command we have not discussed in lecture and give a report on how to use it.
-A:
+A: command = "fg" , brings most recent task to the "foreground" (can continue a ctrl-z) 
 
 Q: Using your text editor of choice, give a two - three paragraph introduction on how to use it. Include any special features you find interesting.  
-A:
+A: As of currently my favorite editor is Vim or Vi Enhanced for cygwin. The reason being is
+   because it is the default (although only the minimal version is installed). There are many
+   commands that have yet to be known to me, but I have come upon a couple that I will now
+   share. When entering vi, you need to specify a file in the cygwin command prompt. Once
+   inside, the file is on a non-insert mode. Certain keys are mapped to certain commands, most
+   which I still have not figured out. For now, the I will list what I believe to be known 
+   commands.
+
+   The "I" key along with a couple others activate an insert mode. This mode allows for the
+   text to be written to normally with the keyboard. When in this mode, the only way to end
+   it is to press "Esc". This puts the editor back into non-insert mode. In order to quit the
+   edit itself, you need to press the colon button ":" which loads what seems to be a miniature
+   command prompt. ":q" quits the file only if there the changes in the file have already been
+   saved. To save a file ":w" writes over the original file. It is worth noting that the two
+   can be combined into ":wq" to save then quit. That is all that I have learned so far but
+   it seems that this is all I really need to use this editor, which I find really convenient.
 
 Use the following directory structure for the next three questions:
 
@@ -78,11 +94,11 @@ Use the following directory structure for the next three questions:
                 └── simple.cpp
 
 Q: Using an absolute path, get into the peephole directory.
-A:
+A: /src/passes/peephole
 
 Q: Using a relative path and starting in the peephole directory, get into the images directory.
-A:
+A: ../../../docs/images
 
 Q: Using the shortest path possible and starting in the passes directory, move into the docs directory.
-A:
+A: ~/docs        (This assumes the "~" sign is allowed)    otherwise - ../../docs
 
